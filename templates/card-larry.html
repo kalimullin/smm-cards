@@ -12,35 +12,28 @@
     color:#111; position:relative;
   }
   .fig { position:absolute; top:70px; left:120px; font-family:Menlo, monospace; font-size:24px; letter-spacing:3px; color:rgba(0,0,0,.55); }
-  .caption { position:absolute; bottom:70px; left:120px; font-family:Menlo, monospace; font-size:24px; letter-spacing:3px; color:#111; }
-  .caption2 { position:absolute; bottom:70px; right:120px; font-family:Menlo, monospace; font-size:24px; letter-spacing:3px; color:#111; font-weight:bold; }
-  .larry { position:absolute; left:150px; top:330px; width:420px; text-align:center; }
-  .perch { width:340px; height:340px; margin:0 auto; border:3px dashed rgba(0,0,0,.5); border-radius:50%; position:relative; }
+  .col { position:absolute; top:280px; width:560px; text-align:center; }
+  .art { height:480px; display:flex; align-items:center; justify-content:center; }
+  .perch { width:360px; height:360px; border:3px dashed rgba(0,0,0,.5); border-radius:50%; position:relative; }
   .vacant { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); font-family:Menlo, monospace; font-size:24px; letter-spacing:4px; color:rgba(0,0,0,.5); }
-  .lname { font-size:48px; font-weight:bold; margin-top:44px; }
-  .ldates { font-family:Menlo, monospace; font-size:24px; color:rgba(0,0,0,.6); margin-top:12px; letter-spacing:2px; }
-  .x { position:absolute; right:220px; top:210px; width:560px; text-align:center; }
-  .xglyph { font-size:460px; line-height:1.1; font-family:"STIX Two Math","STIXGeneral","Apple Symbols",serif; }
-  .xlabel { font-family:Menlo, monospace; font-size:24px; letter-spacing:2px; margin-top:8px; }
-  .xsub { font-family:Menlo, monospace; font-size:24px; letter-spacing:2px; color:rgba(0,0,0,.6); margin-top:14px; }
-  .arrow { position:absolute; left:620px; top:560px; font-size:80px; color:rgba(0,0,0,.65); }
+  .xglyph { font-size:430px; line-height:1; font-family:"STIX Two Math","STIXGeneral","Apple Symbols",serif; }
+  .name { font-size:52px; font-weight:bold; margin-top:40px; }
+  .sub { font-family:Menlo, monospace; font-size:24px; color:rgba(0,0,0,.6); margin-top:16px; letter-spacing:2px; }
+  .arrow { position:absolute; left:755px; top:490px; font-size:90px; color:rgba(0,0,0,.65); }
 </style></head><body>
   <div class="fig">FIG. 8 — THE REPLACEMENT</div>
 
-  <div class="larry">
-    <div class="perch"><div class="vacant">VACANT</div></div>
-    <div class="lname">LARRY</div>
-    <div class="ldates">2010–2023 · NAMED AFTER LARRY BIRD</div>
+  <div class="col" style="left:100px;">
+    <div class="art"><div class="perch" style="margin:0 auto;"><div class="vacant">VACANT</div></div></div>
+    <div class="name">LARRY</div>
+    <div class="sub">2010–2023 · NAMED AFTER LARRY BIRD</div>
   </div>
 
   <div class="arrow">&#8594;</div>
 
-  <div class="x">
-    <div class="xglyph">&#x1D54F;</div>
-    <div class="xlabel">U+1D54F · MATHEMATICAL DOUBLE-STRUCK CAPITAL X</div>
-    <div class="xsub">IN UNICODE SINCE 2001</div>
+  <div class="col" style="right:100px;">
+    <div class="art"><div class="xglyph">&#x1D54F;</div></div>
+    <div class="name">U+1D54F</div>
+    <div class="sub">IN UNICODE SINCE 2001</div>
   </div>
-
-  <div class="caption">THE TWITTER BIRD · 2010–2023</div>
-  <div class="caption2">THE REPLACEMENT SHIPPED IN 2001</div>
 </body></html>
