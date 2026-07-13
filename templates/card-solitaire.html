@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { width:1600px; height:1200px; overflow:hidden; }
+  body {
+    background-color:#EFEFEF;
+    background-image:
+      linear-gradient(rgba(0,0,0,.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0,0,0,.05) 1px, transparent 1px);
+    background-size:40px 40px;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#111; position:relative;
+  }
+  .fig { position:absolute; top:70px; left:120px; font-family:Menlo, monospace; font-size:24px; letter-spacing:3px; color:rgba(0,0,0,.55); }
+  .caption { position:absolute; bottom:70px; left:120px; font-family:Menlo, monospace; font-size:24px; letter-spacing:3px; color:#111; }
+  .caption2 { position:absolute; bottom:70px; right:120px; font-family:Menlo, monospace; font-size:24px; letter-spacing:3px; color:#111; font-weight:bold; }
+</style></head><body>
+  <div class="fig">FIG. 5 — DRAG AND DROP</div>
+
+  <svg width="1600" height="1000" viewBox="0 0 1600 1000" style="position:absolute; top:100px; left:0;">
+    <line x1="140" y1="920" x2="1460" y2="920" stroke="rgba(0,0,0,.4)" stroke-width="2" stroke-dasharray="12 9"/>
+    <g fill="none" stroke="rgba(0,0,0,.45)" stroke-width="2.5" stroke-dasharray="10 8">
+      <rect x="210"  y="120" width="150" height="210" rx="14"/>
+      <rect x="340"  y="300" width="150" height="210" rx="14"/>
+      <rect x="470"  y="520" width="150" height="210" rx="14"/>
+      <rect x="600"  y="706" width="150" height="210" rx="14"/>
+      <rect x="730"  y="520" width="150" height="210" rx="14"/>
+      <rect x="860"  y="620" width="150" height="210" rx="14"/>
+      <rect x="990"  y="706" width="150" height="210" rx="14"/>
+      <rect x="1120" y="640" width="150" height="210" rx="14"/>
+    </g>
+    <g>
+      <rect x="1250" y="706" width="150" height="210" rx="14" fill="#fff" stroke="#111" stroke-width="4"/>
+      <text x="1272" y="756" font-size="40" font-weight="bold" font-family="Helvetica">A</text>
+      <text x="1268" y="800" font-size="40">&#9824;</text>
+      <text x="1325" y="836" font-size="76" text-anchor="middle">&#9824;</text>
+    </g>
+  </svg>
+
+  <div class="caption">WINDOWS SOLITAIRE · 1990</div>
+  <div class="caption2">ROYALTIES: $0</div>
+</body></html>

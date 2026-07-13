@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { width:1600px; height:1200px; overflow:hidden; }
+  body {
+    background-color:#EFEFEF;
+    background-image:
+      linear-gradient(rgba(0,0,0,.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0,0,0,.05) 1px, transparent 1px);
+    background-size:40px 40px;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#111; position:relative;
+  }
+  .fig { position:absolute; top:70px; left:120px; font-family:Menlo, monospace; font-size:24px; letter-spacing:3px; color:rgba(0,0,0,.55); }
+  .big { position:absolute; left:100px; top:230px; font-size:640px; font-weight:700; letter-spacing:-30px; line-height:1; }
+  .footer { position:absolute; bottom:70px; left:120px; font-family:Menlo, monospace; font-size:24px; letter-spacing:3px; color:rgba(0,0,0,.55); }
+  .chart { position:absolute; right:140px; bottom:180px; width:460px; height:740px; }
+  .baseline { position:absolute; bottom:0; left:0; width:100%; border-bottom:3px solid #111; }
+  .bar { position:absolute; bottom:0; width:150px; border:3px solid #111;
+         background:repeating-linear-gradient(45deg, rgba(0,0,0,.55) 0 3px, transparent 3px 12px); }
+  .blabel { position:absolute; font-family:Menlo, monospace; font-size:24px; letter-spacing:1px; text-align:center; width:200px; }
+  .val { font-weight:bold; font-size:32px; }
+</style></head><body>
+  <div class="fig">FIG. 4 — “COPY NOTHING”</div>
+
+  <div class="big">49</div>
+
+  <div class="chart">
+    <div class="bar" style="left:20px; height:660px;"></div>
+    <div class="blabel" style="left:-5px; top:-76px;"><span class="val">1,961</span><br>APR 2024</div>
+    <div class="bar" style="left:290px; height:17px;"></div>
+    <div class="blabel" style="left:265px; bottom:90px;"><span class="val">49</span><br>APR 2025</div>
+    <div class="baseline"></div>
+  </div>
+
+  <div class="footer">NEW JAGUAR REGISTRATIONS · EUROPE · SOURCE: ACEA</div>
+</body></html>

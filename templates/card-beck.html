@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { width:1600px; height:1200px; overflow:hidden; }
+  body {
+    background-color:#EFEFEF;
+    background-image:
+      linear-gradient(rgba(0,0,0,.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0,0,0,.05) 1px, transparent 1px);
+    background-size:40px 40px;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#111; position:relative;
+  }
+  .fig { position:absolute; top:70px; left:120px; font-family:Menlo, monospace; font-size:24px; letter-spacing:3px; color:rgba(0,0,0,.55); }
+  .caption { position:absolute; bottom:70px; left:120px; font-family:Menlo, monospace; font-size:24px; letter-spacing:3px; color:#111; }
+  .caption2 { position:absolute; bottom:70px; right:120px; font-family:Menlo, monospace; font-size:24px; letter-spacing:3px; color:#111; font-weight:bold; }
+</style></head><body>
+  <div class="fig">FIG. 7 — THE HARRY BECK LINE</div>
+
+  <svg width="1600" height="1000" viewBox="0 0 1600 1000" style="position:absolute; top:120px; left:0;">
+    <polyline points="140,700 500,700 780,420 1460,420" fill="none" stroke="#DC241F" stroke-width="16" stroke-linejoin="round"/>
+    <line x1="280" y1="708" x2="280" y2="660" stroke="#111" stroke-width="10"/>
+    <text x="280" y="620" font-family="Helvetica" font-size="34" font-weight="bold" text-anchor="middle">1931</text>
+    <text x="280" y="580" font-family="Menlo" font-size="24" fill="rgba(0,0,0,.65)" text-anchor="middle">REJECTED: TOO RADICAL</text>
+    <line x1="900" y1="428" x2="900" y2="380" stroke="#111" stroke-width="10"/>
+    <text x="900" y="340" font-family="Helvetica" font-size="34" font-weight="bold" text-anchor="middle">1933</text>
+    <text x="900" y="300" font-family="Menlo" font-size="24" fill="rgba(0,0,0,.65)" text-anchor="middle">700,000 COPIES PRINTED</text>
+    <line x1="1130" y1="412" x2="1130" y2="460" stroke="#111" stroke-width="10"/>
+    <text x="1130" y="510" font-family="Helvetica" font-size="34" font-weight="bold" text-anchor="middle">1965</text>
+    <text x="1130" y="550" font-family="Menlo" font-size="24" fill="rgba(0,0,0,.65)" text-anchor="middle">"BITTER AND BETRAYED"</text>
+    <circle cx="1360" cy="420" r="26" fill="#fff" stroke="#111" stroke-width="9"/>
+    <text x="1360" y="340" font-family="Helvetica" font-size="34" font-weight="bold" text-anchor="middle">1997</text>
+    <text x="1360" y="300" font-family="Menlo" font-size="24" fill="rgba(0,0,0,.65)" text-anchor="middle">NAME ON EVERY MAP</text>
+  </svg>
+
+  <div class="caption">LONDON UNDERGROUND DIAGRAM · H.C. BECK</div>
+  <div class="caption2">HE DIED IN 1974</div>
+</body></html>
